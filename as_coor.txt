@@ -1,0 +1,472 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/openec/socc22/openec
+Consolidate compiler generated dependencies of target util
+[  7%] Built target util
+Consolidate compiler generated dependencies of target ec
+[ 40%] Built target ec
+Consolidate compiler generated dependencies of target protocol
+[ 45%] Built target protocol
+Consolidate compiler generated dependencies of target common
+[ 65%] Built target common
+Consolidate compiler generated dependencies of target fs
+[ 81%] Built target fs
+Consolidate compiler generated dependencies of target OECCoordinator
+[ 84%] Built target OECCoordinator
+Consolidate compiler generated dependencies of target OECAgent
+[ 87%] Built target OECAgent
+Consolidate compiler generated dependencies of target OECClient
+[ 90%] Built target OECClient
+Consolidate compiler generated dependencies of target ECDAGTest
+[ 93%] Built target ECDAGTest
+Consolidate compiler generated dependencies of target CodeTest
+[ 96%] Built target CodeTest
+Consolidate compiler generated dependencies of target HDFSClient
+[100%] Built target HDFSClient
+---------autoSync openec@node01 start------------
+---------autoSync openec@node01 finish------------
+---------autoSync openec@node02 start------------
+---------autoSync openec@node02 finish------------
+---------autoSync openec@node03 start------------
+---------autoSync openec@node03 finish------------
+---------autoSync openec@node04 start------------
+---------autoSync openec@node04 finish------------
+---------autoSync openec@node05 start------------
+---------autoSync openec@node05 finish------------
+---------autoSync openec@node06 start------------
+---------autoSync openec@node06 finish------------
+Stopping namenodes on [master]
+Stopping datanodes
+Stopping secondary namenodes [master]
+---------format @node01 start------------
+---------format @node01 finish------------
+---------format @node02 start------------
+---------format @node02 finish------------
+---------format @node03 start------------
+---------format @node03 finish------------
+---------format @node04 start------------
+---------format @node04 finish------------
+---------format @node05 start------------
+---------format @node05 finish------------
+---------format @node06 start------------
+---------format @node06 finish------------
+Formatting using clusterid: CID-fac5fbaa-a1f8-4e88-bad3-d5a76156a4f8
+Starting namenodes on [master]
+Starting datanodes
+Starting secondary namenodes [master]
+OK
+Stopping ...
+Redis stopped
+Starting Redis server...
+FSUtil::HDFS3
+hadoop3 constructor!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+FSUtil::HDFS3
+hadoop3 constructor!
+Coordinator::doProcess
+FSUtil::HDFS3
+hadoop3 constructor!
+Coordinator::doProcess
+FSUtil::HDFS3
+hadoop3 constructor!
+Coordinator::doProcess
+OECCoordinator started ......
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 7, enable: 1, ectype: encode
+type: 7
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 0, client: 192.168.235.160, filename: /testfile0, ecid: rs_6_4_pool, mode: 1, filesizeMB: 16
+type: 0
+Coordinator::registerOfflineEC
+SSEntry:: filename: /testfile0, type: 1, filesizeMB: 16, ecidpool: rs_6_4_pool, objname: /testfile0_oecobj_0 , objloc: 192.168.235.160 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.160, filename: /testfile0_oecobj_0, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.160 
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 2, client: 192.168.235.160, filename: /testfile0
+type: 2
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 0, client: 192.168.235.160, filename: /testfile1, ecid: rs_6_4_pool, mode: 1, filesizeMB: 16
+type: 0
+Coordinator::registerOfflineEC
+SSEntry:: filename: /testfile1, type: 1, filesizeMB: 16, ecidpool: rs_6_4_pool, objname: /testfile1_oecobj_0 , objloc: 192.168.235.165 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.160, filename: /testfile1_oecobj_0, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.165 
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 2, client: 192.168.235.160, filename: /testfile1
+type: 2
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 0, client: 192.168.235.160, filename: /testfile2, ecid: rs_6_4_pool, mode: 1, filesizeMB: 16
+type: 0
+Coordinator::registerOfflineEC
+SSEntry:: filename: /testfile2, type: 1, filesizeMB: 16, ecidpool: rs_6_4_pool, objname: /testfile2_oecobj_0 , objloc: 192.168.235.163 
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.160, filename: /testfile2_oecobj_0, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.163 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 2, client: 192.168.235.160, filename: /testfile2
+type: 2
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 0, client: 192.168.235.160, filename: /testfile3, ecid: rs_6_4_pool, mode: 1, filesizeMB: 16
+type: 0
+Coordinator::registerOfflineEC
+SSEntry:: filename: /testfile3, type: 1, filesizeMB: 16, ecidpool: rs_6_4_pool, objname: /testfile3_oecobj_0 , objloc: 192.168.235.162 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.160, filename: /testfile3_oecobj_0, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.162 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 2, client: 192.168.235.160, filename: /testfile3
+type: 2
+Coordinator::finalizeFile. stripe oecstripe-1654583498158056is candidate for ec 
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 1, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 4, client: 192.168.235.159, ecpoolid: rs_6_4_pool, stripename: oecstripe-1654583498158056
+type: 4
+Coordinator::offlineEnc start for oecstripe-1654583498158056
+ECDAG::Join(16, 0 4 8 12, 1 1 1 1)
+ECDAG::Join(20, 0 4 8 12, 1 2 4 8)
+ECDAG::Join(17, 1 5 9 13, 1 1 1 1)
+ECDAG::Join(21, 1 5 9 13, 1 2 4 8)
+ECDAG::Join(18, 2 6 10 14, 1 1 1 1)
+ECDAG::Join(22, 2 6 10 14, 1 2 4 8)
+ECDAG::Join(19, 3 7 11 15, 1 1 1 1)
+ECDAG::Join(23, 3 7 11 15, 1 2 4 8)
+(data16 = 1 (data1000 = 1 (data0) + 1 (data4) + 1 (data8) + 1 (data12)))
+(data20 = 1 (data1000 = 1 (data0) + 2 (data4) + 4 (data8) + 8 (data12)))
+(data17 = 1 (data1001 = 1 (data1) + 1 (data5) + 1 (data9) + 1 (data13)))
+(data21 = 1 (data1001 = 1 (data1) + 2 (data5) + 4 (data9) + 8 (data13)))
+(data18 = 1 (data1002 = 1 (data2) + 1 (data6) + 1 (data10) + 1 (data14)))
+(data22 = 1 (data1002 = 1 (data2) + 2 (data6) + 4 (data10) + 8 (data14)))
+(data19 = 1 (data1003 = 1 (data3) + 1 (data7) + 1 (data11) + 1 (data15)))
+(data23 = 1 (data1003 = 1 (data3) + 2 (data7) + 4 (data11) + 8 (data15)))
+Cluster:: ( 0 4 8 12 ) -> ( 16 20 ) , opted: 1
+Cluster:: ( 1 5 9 13 ) -> ( 17 21 ) , opted: 1
+Cluster:: ( 2 6 10 14 ) -> ( 18 22 ) , opted: 1
+Cluster:: ( 3 7 11 15 ) -> ( 19 23 ) , opted: 1
+(data16 = 1 (data1000 = 1 (data0) + 1 (data4) + 1 (data8) + 1 (data12)))
+(data20 = 1 (data1000 = 1 (data0) + 2 (data4) + 4 (data8) + 8 (data12)))
+(data17 = 1 (data1001 = 1 (data1) + 1 (data5) + 1 (data9) + 1 (data13)))
+(data21 = 1 (data1001 = 1 (data1) + 2 (data5) + 4 (data9) + 8 (data13)))
+(data18 = 1 (data1002 = 1 (data2) + 1 (data6) + 1 (data10) + 1 (data14)))
+(data22 = 1 (data1002 = 1 (data2) + 2 (data6) + 4 (data10) + 8 (data14)))
+(data19 = 1 (data1003 = 1 (data3) + 1 (data7) + 1 (data11) + 1 (data15)))
+(data23 = 1 (data1003 = 1 (data3) + 2 (data7) + 4 (data11) + 8 (data15)))
+Cluster:: ( 0 4 8 12 ) -> ( 16 20 ) , opted: 1
+Cluster:: ( 1 5 9 13 ) -> ( 17 21 ) , opted: 1
+Cluster:: ( 2 6 10 14 ) -> ( 18 22 ) , opted: 1
+Cluster:: ( 3 7 11 15 ) -> ( 19 23 ) , opted: 1
+AGCommand::Load, ip: 192.168.235.160 objname: /testfile0_oecobj_0, cidlist: 3 , write: 3 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.162
+    Fetch: 3 from 192.168.235.160
+    Fetch: 7 from 192.168.235.165
+    Fetch: 11 from 192.168.235.163
+    Fetch: 15 from 192.168.235.162
+    Compute: 23, coef: 1 2 4 8 , cache: 1
+    Compute: 19, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 14 , write: 14 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 10 , write: 10 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 6 , write: 6 -> 1, 
+AGCommand::Load, ip: 192.168.235.160 objname: /testfile0_oecobj_0, cidlist: 2 , write: 2 -> 1, 
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 15 , write: 15 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.160
+    Fetch: 0 from 192.168.235.160
+    Fetch: 4 from 192.168.235.165
+    Fetch: 8 from 192.168.235.163
+    Fetch: 12 from 192.168.235.162
+    Compute: 20, coef: 1 2 4 8 , cache: 1
+    Compute: 16, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 11 , write: 11 -> 1, 
+AGCommand::Load, ip: 192.168.235.160 objname: /testfile0_oecobj_0, cidlist: 0 , write: 0 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 7 , write: 7 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 9 , write: 9 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 5 , write: 5 -> 1, 
+AGCommand::Load, ip: 192.168.235.160 objname: /testfile0_oecobj_0, cidlist: 1 , write: 1 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.165
+    Fetch: 1 from 192.168.235.160
+    Fetch: 5 from 192.168.235.165
+    Fetch: 9 from 192.168.235.163
+    Fetch: 13 from 192.168.235.162
+    Compute: 21, coef: 1 2 4 8 , cache: 1
+    Compute: 17, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 12 , write: 12 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 8 , write: 8 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 4 , write: 4 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.163
+    Fetch: 2 from 192.168.235.160
+    Fetch: 6 from 192.168.235.165
+    Fetch: 10 from 192.168.235.163
+    Fetch: 14 from 192.168.235.162
+    Compute: 22, coef: 1 2 4 8 , cache: 1
+    Compute: 18, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 13 , write: 13 -> 1, 
+ECDAG:: persist. numblks: 2
+AGCommand::FetchAndPersist, ip: 192.168.235.164
+    Fetch: 16 from 192.168.235.160
+    Fetch: 17 from 192.168.235.165
+    Fetch: 18 from 192.168.235.163
+    Fetch: 19 from 192.168.235.162
+    Persist as /rs_6_4_pool-oecstripe-1654583498158056-4
+AGCommand::FetchAndPersist, ip: 192.168.235.161
+    Fetch: 20 from 192.168.235.160
+    Fetch: 21 from 192.168.235.165
+    Fetch: 22 from 192.168.235.163
+    Fetch: 23 from 192.168.235.162
+    Persist as /rs_6_4_pool-oecstripe-1654583498158056-5
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.164, filename: /rs_6_4_pool-oecstripe-1654583498158056-4, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.164 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.161, filename: /rs_6_4_pool-oecstripe-1654583498158056-5, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.161 
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 1, concurrentNum = 5
+Coordinator::offlineEnc for oecstripe-1654583498158056 finishes
+StripeStore::finishECStripe.encodeTime = 1384.65
+Coordinator::doProcess
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+StripeStore::scanning the pendingECQueue
+StripeStore::pendingECQueue.size = 0, ecInProgress = 0, concurrentNum = 5
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 7, enable: 0, ectype: encode
+type: 7
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 6, client: 159.235.168.192, filename: /testfile0_oecobj_0
+type: 6
+[debug] objname is /testfile0_oecobj_0, LostMap size is 1
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 6, client: 159.235.168.192, filename: /rs_6_4_pool-oecstripe-1654583498158056-5
+type: 6
+[debug] objname is /rs_6_4_pool-oecstripe-1654583498158056-5, LostMap size is 2
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 7, enable: 1, ectype: repair
+type: 7
+Coordinator::doProcess
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 2
+in SS:
+		objname is /rs_6_4_pool-oecstripe-1654583498158056-5, stripe name is oecstripe-1654583498158056, failed num is 2. repair...
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 8type: 8
+Coordinator::repairReqFromSS.repair request for /rs_6_4_pool-oecstripe-1654583498158056-5
+[debug] Delay Repair---------------
+ECDAG::Join(0, 4 8 12 16, 1 1 1 1)
+ECDAG::Join(20, 4 8 12 16, 3 5 9 1)
+ECDAG::Join(1, 5 9 13 17, 1 1 1 1)
+ECDAG::Join(21, 5 9 13 17, 3 5 9 1)
+ECDAG::Join(2, 6 10 14 18, 1 1 1 1)
+ECDAG::Join(22, 6 10 14 18, 3 5 9 1)
+ECDAG::Join(3, 7 11 15 19, 1 1 1 1)
+ECDAG::Join(23, 7 11 15 19, 3 5 9 1)
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 7 , write: 7 -> 1, 
+AGCommand::Load, ip: 192.168.235.164 objname: /rs_6_4_pool-oecstripe-1654583498158056-4, cidlist: 18 , write: 18 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.164
+    Fetch: 7 from 192.168.235.165
+    Fetch: 11 from 192.168.235.163
+    Fetch: 15 from 192.168.235.162
+    Fetch: 19 from 192.168.235.164
+    Compute: 23, coef: 3 5 9 1 , cache: 1
+    Compute: 3, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 14 , write: 14 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 10 , write: 10 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 6 , write: 6 -> 1, 
+AGCommand::Load, ip: 192.168.235.164 objname: /rs_6_4_pool-oecstripe-1654583498158056-4, cidlist: 17 , write: 17 -> 1, 
+AGCommand::Load, ip: 192.168.235.164 objname: /rs_6_4_pool-oecstripe-1654583498158056-4, cidlist: 19 , write: 19 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 8 , write: 8 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.165
+    Fetch: 4 from 192.168.235.165
+    Fetch: 8 from 192.168.235.163
+    Fetch: 12 from 192.168.235.162
+    Fetch: 16 from 192.168.235.164
+    Compute: 20, coef: 3 5 9 1 , cache: 1
+    Compute: 0, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 11 , write: 11 -> 1, 
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 15 , write: 15 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 4 , write: 4 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.162
+    Fetch: 6 from 192.168.235.165
+    Fetch: 10 from 192.168.235.163
+    Fetch: 14 from 192.168.235.162
+    Fetch: 18 from 192.168.235.164
+    Compute: 22, coef: 3 5 9 1 , cache: 1
+    Compute: 2, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 13 , write: 13 -> 1, 
+AGCommand::Load, ip: 192.168.235.163 objname: /testfile2_oecobj_0, cidlist: 9 , write: 9 -> 1, 
+AGCommand::Load, ip: 192.168.235.165 objname: /testfile1_oecobj_0, cidlist: 5 , write: 5 -> 1, 
+AGCommand::Load, ip: 192.168.235.164 objname: /rs_6_4_pool-oecstripe-1654583498158056-4, cidlist: 16 , write: 16 -> 1, 
+AGCommand::FetchAndCompute, ip: 192.168.235.163
+    Fetch: 5 from 192.168.235.165
+    Fetch: 9 from 192.168.235.163
+    Fetch: 13 from 192.168.235.162
+    Fetch: 17 from 192.168.235.164
+    Compute: 21, coef: 3 5 9 1 , cache: 1
+    Compute: 1, coef: 1 1 1 1 , cache: 1
+AGCommand::Load, ip: 192.168.235.162 objname: /testfile3_oecobj_0, cidlist: 12 , write: 12 -> 1, 
+ECDAG:: persist. numblks: 2
+AGCommand::FetchAndPersist, ip: 192.168.235.160
+    Fetch: 0 from 192.168.235.165
+    Fetch: 1 from 192.168.235.163
+    Fetch: 2 from 192.168.235.162
+    Fetch: 3 from 192.168.235.164
+    Persist as /testfile0_oecobj_0
+AGCommand::FetchAndPersist, ip: 192.168.235.161
+    Fetch: 20 from 192.168.235.165
+    Fetch: 21 from 192.168.235.163
+    Fetch: 22 from 192.168.235.162
+    Fetch: 23 from 192.168.235.164
+    Persist as /rs_6_4_pool-oecstripe-1654583498158056-5
+Repair::algorithm running time: 1.752
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+CmdDistributor::distribute.wait for request!
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.160, filename: /testfile0_oecobj_0, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.160 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 1, client: 192.168.235.161, filename: /rs_6_4_pool-oecstripe-1654583498158056-5, numOfReplicas: 1
+type: 1
+Coordinator::getLocation.return: 192.168.235.161 
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 11type: 11
+Coordinator::reportRepaired for /testfile0_oecobj_0
+Coordinator::doProcess
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 11type: 11
+Coordinator::reportRepaired for /rs_6_4_pool-oecstripe-1654583498158056-5
+Repair::finishECStripe.repairTime = 608.503
+Coordinator::doProcess
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+Repair::repair transfer time: 1009.57
+Coordinator::repair finishes
+Coordinator::doProcess
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+StripeStore::scanning repair queue
+StripeStore::scanRepair.rpInProgressNum = 0
+_lostMap.size: 0
+Coordinator::doProcess() receive a request!
+CoorCommand::type: 7, enable: 0, ectype: repair
+type: 7
+Coordinator::doProcess

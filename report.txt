@@ -1,0 +1,1540 @@
+Configured Capacity: 3371156111360 (3.07 TB)
+Present Capacity: 2684720799744 (2.44 TB)
+DFS Remaining: 2684718833664 (2.44 TB)
+DFS Used: 1966080 (1.88 MB)
+DFS Used%: 0.00%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (80):
+
+Name: 172.29.0.101:9866 (node01)
+Hostname: node01
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6679207936 (6.22 GB)
+DFS Remaining: 33296068608 (31.01 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.102:9866 (node02)
+Hostname: node02
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6792892416 (6.33 GB)
+DFS Remaining: 33182384128 (30.90 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 78.74%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.103:9866 (node03)
+Hostname: node03
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6164000768 (5.74 GB)
+DFS Remaining: 33811275776 (31.49 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.24%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.104:9866 (node04)
+Hostname: node04
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260436992 (5.83 GB)
+DFS Remaining: 33714839552 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.105:9866 (node05)
+Hostname: node05
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261374976 (5.83 GB)
+DFS Remaining: 33713901568 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.106:9866 (node06)
+Hostname: node06
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261342208 (5.83 GB)
+DFS Remaining: 33713934336 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.107:9866 (node07)
+Hostname: node07
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260387840 (5.83 GB)
+DFS Remaining: 33714888704 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.108:9866 (node08)
+Hostname: node08
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260453376 (5.83 GB)
+DFS Remaining: 33714823168 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.109:9866 (node09)
+Hostname: node09
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 7308918784 (6.81 GB)
+DFS Remaining: 32666357760 (30.42 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 77.52%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.110:9866 (node10)
+Hostname: node10
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 7858933760 (7.32 GB)
+DFS Remaining: 32116342784 (29.91 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 76.21%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.111:9866 (node11)
+Hostname: node11
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260412416 (5.83 GB)
+DFS Remaining: 33714864128 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.112:9866 (node12)
+Hostname: node12
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260547584 (5.83 GB)
+DFS Remaining: 33714728960 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.113:9866 (node13)
+Hostname: node13
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260678656 (5.83 GB)
+DFS Remaining: 33714597888 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.114:9866 (node14)
+Hostname: node14
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260363264 (5.83 GB)
+DFS Remaining: 33714913280 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.115:9866 (node15)
+Hostname: node15
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260428800 (5.83 GB)
+DFS Remaining: 33714847744 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.116:9866 (node16)
+Hostname: node16
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6647447552 (6.19 GB)
+DFS Remaining: 33327828992 (31.04 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.09%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.117:9866 (node17)
+Hostname: node17
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6349115392 (5.91 GB)
+DFS Remaining: 33626161152 (31.32 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.80%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.118:9866 (node18)
+Hostname: node18
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260211712 (5.83 GB)
+DFS Remaining: 33715064832 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.119:9866 (node19)
+Hostname: node19
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260367360 (5.83 GB)
+DFS Remaining: 33714909184 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.120:9866 (node20)
+Hostname: node20
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6891347968 (6.42 GB)
+DFS Remaining: 33083928576 (30.81 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 78.51%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.121:9866 (node21)
+Hostname: node21
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260609024 (5.83 GB)
+DFS Remaining: 33714667520 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.122:9866 (node22)
+Hostname: node22
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260621312 (5.83 GB)
+DFS Remaining: 33714655232 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.123:9866 (node23)
+Hostname: node23
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260641792 (5.83 GB)
+DFS Remaining: 33714634752 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.124:9866 (node24)
+Hostname: node24
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260592640 (5.83 GB)
+DFS Remaining: 33714683904 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.125:9866 (node25)
+Hostname: node25
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260600832 (5.83 GB)
+DFS Remaining: 33714675712 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.126:9866 (node26)
+Hostname: node26
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260727808 (5.83 GB)
+DFS Remaining: 33714548736 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.127:9866 (node27)
+Hostname: node27
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260588544 (5.83 GB)
+DFS Remaining: 33714688000 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.128:9866 (node28)
+Hostname: node28
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260600832 (5.83 GB)
+DFS Remaining: 33714675712 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.129:9866 (node29)
+Hostname: node29
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260617216 (5.83 GB)
+DFS Remaining: 33714659328 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.130:9866 (node30)
+Hostname: node30
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260441088 (5.83 GB)
+DFS Remaining: 33714835456 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.131:9866 (node31)
+Hostname: node31
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260711424 (5.83 GB)
+DFS Remaining: 33714565120 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.132:9866 (node32)
+Hostname: node32
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260727808 (5.83 GB)
+DFS Remaining: 33714548736 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.133:9866 (node33)
+Hostname: node33
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459908096 (6.02 GB)
+DFS Remaining: 33515368448 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:50 CST 2022
+Last Block Report: Fri Jun 17 09:34:50 CST 2022
+
+
+Name: 172.29.0.134:9866 (node34)
+Hostname: node34
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459854848 (6.02 GB)
+DFS Remaining: 33515421696 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.135:9866 (node35)
+Hostname: node35
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460047360 (6.02 GB)
+DFS Remaining: 33515229184 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.136:9866 (node36)
+Hostname: node36
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459834368 (6.02 GB)
+DFS Remaining: 33515442176 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.137:9866 (node37)
+Hostname: node37
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459826176 (6.02 GB)
+DFS Remaining: 33515450368 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.138:9866 (node38)
+Hostname: node38
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459772928 (6.02 GB)
+DFS Remaining: 33515503616 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.139:9866 (node39)
+Hostname: node39
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6459781120 (6.02 GB)
+DFS Remaining: 33515495424 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.140:9866 (node40)
+Hostname: node40
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 7508373504 (6.99 GB)
+DFS Remaining: 32466903040 (30.24 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 77.05%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.141:9866 (node41)
+Hostname: node41
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261026816 (5.83 GB)
+DFS Remaining: 33714249728 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.142:9866 (node42)
+Hostname: node42
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260932608 (5.83 GB)
+DFS Remaining: 33714343936 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.143:9866 (node43)
+Hostname: node43
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261088256 (5.83 GB)
+DFS Remaining: 33714188288 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.144:9866 (node44)
+Hostname: node44
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261047296 (5.83 GB)
+DFS Remaining: 33714229248 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.145:9866 (node45)
+Hostname: node45
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260912128 (5.83 GB)
+DFS Remaining: 33714364416 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.146:9866 (node46)
+Hostname: node46
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260903936 (5.83 GB)
+DFS Remaining: 33714372608 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.147:9866 (node47)
+Hostname: node47
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260920320 (5.83 GB)
+DFS Remaining: 33714356224 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.148:9866 (node48)
+Hostname: node48
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6260998144 (5.83 GB)
+DFS Remaining: 33714278400 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.149:9866 (node49)
+Hostname: node49
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261047296 (5.83 GB)
+DFS Remaining: 33714229248 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.150:9866 (node50)
+Hostname: node50
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261125120 (5.83 GB)
+DFS Remaining: 33714151424 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:47 CST 2022
+Last Block Report: Fri Jun 17 09:34:47 CST 2022
+
+
+Name: 172.29.0.151:9866 (node51)
+Hostname: node51
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261301248 (5.83 GB)
+DFS Remaining: 33713975296 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.152:9866 (node52)
+Hostname: node52
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261272576 (5.83 GB)
+DFS Remaining: 33714003968 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.153:9866 (node53)
+Hostname: node53
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261059584 (5.83 GB)
+DFS Remaining: 33714216960 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.154:9866 (node54)
+Hostname: node54
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261022720 (5.83 GB)
+DFS Remaining: 33714253824 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.155:9866 (node55)
+Hostname: node55
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261145600 (5.83 GB)
+DFS Remaining: 33714130944 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.156:9866 (node56)
+Hostname: node56
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261010432 (5.83 GB)
+DFS Remaining: 33714266112 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.157:9866 (node57)
+Hostname: node57
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460162048 (6.02 GB)
+DFS Remaining: 33515114496 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.158:9866 (node58)
+Hostname: node58
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261010432 (5.83 GB)
+DFS Remaining: 33714266112 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.159:9866 (node59)
+Hostname: node59
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460301312 (6.02 GB)
+DFS Remaining: 33514975232 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.160:9866 (node60)
+Hostname: node60
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460284928 (6.02 GB)
+DFS Remaining: 33514991616 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.161:9866 (node61)
+Hostname: node61
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460395520 (6.02 GB)
+DFS Remaining: 33514881024 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.162:9866 (node62)
+Hostname: node62
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460411904 (6.02 GB)
+DFS Remaining: 33514864640 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.163:9866 (node63)
+Hostname: node63
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460542976 (6.02 GB)
+DFS Remaining: 33514733568 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.164:9866 (node64)
+Hostname: node64
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6460493824 (6.02 GB)
+DFS Remaining: 33514782720 (31.21 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.53%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.165:9866 (node65)
+Hostname: node65
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261256192 (5.83 GB)
+DFS Remaining: 33714020352 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.166:9866 (node66)
+Hostname: node66
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261370880 (5.83 GB)
+DFS Remaining: 33713905664 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.167:9866 (node67)
+Hostname: node67
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261227520 (5.83 GB)
+DFS Remaining: 33714049024 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.168:9866 (node68)
+Hostname: node68
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261239808 (5.83 GB)
+DFS Remaining: 33714036736 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.169:9866 (node69)
+Hostname: node69
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261231616 (5.83 GB)
+DFS Remaining: 33714044928 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.170:9866 (node70)
+Hostname: node70
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261366784 (5.83 GB)
+DFS Remaining: 33713909760 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.171:9866 (node71)
+Hostname: node71
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261493760 (5.83 GB)
+DFS Remaining: 33713782784 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.172:9866 (node72)
+Hostname: node72
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6261256192 (5.83 GB)
+DFS Remaining: 33714020352 (31.40 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.01%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:49 CST 2022
+Last Block Report: Fri Jun 17 09:34:49 CST 2022
+
+
+Name: 172.29.0.173:9866 (node73)
+Hostname: node73
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 7414534144 (6.91 GB)
+DFS Remaining: 32560742400 (30.32 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 77.27%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.174:9866 (node74)
+Hostname: node74
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 7414501376 (6.91 GB)
+DFS Remaining: 32560775168 (30.32 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 77.27%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.175:9866 (node75)
+Hostname: node75
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6947598336 (6.47 GB)
+DFS Remaining: 33027678208 (30.76 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 78.38%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.176:9866 (node76)
+Hostname: node76
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6835621888 (6.37 GB)
+DFS Remaining: 33139654656 (30.86 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 78.64%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.177:9866 (node77)
+Hostname: node77
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6316589056 (5.88 GB)
+DFS Remaining: 33658687488 (31.35 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.87%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.178:9866 (node78)
+Hostname: node78
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6316556288 (5.88 GB)
+DFS Remaining: 33658720256 (31.35 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.87%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.179:9866 (node79)
+Hostname: node79
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6316687360 (5.88 GB)
+DFS Remaining: 33658589184 (31.35 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.87%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
+Name: 172.29.0.180:9866 (node80)
+Hostname: node80
+Decommission Status : Normal
+Configured Capacity: 42139451392 (39.25 GB)
+DFS Used: 24576 (24 KB)
+Non DFS Used: 6316593152 (5.88 GB)
+DFS Remaining: 33658683392 (31.35 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 79.87%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Fri Jun 17 09:34:48 CST 2022
+Last Block Report: Fri Jun 17 09:34:48 CST 2022
+
+
