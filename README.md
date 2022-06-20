@@ -81,7 +81,7 @@
 
   Set the environment variables.
 
-  `export M2_HOME=/home/openec/apache-maven-3.5.0`
+  `export M2_HOME=/home/hybridlazy/apache-maven-3.5.0`
 
   `export PATH=$PATH:$M2_HOME/bin`
 
@@ -95,7 +95,7 @@
 
   Set the environment variables.
 
-  `export HADOOP SRC DIR=/home/openec/hadoop-3.0.0-src`
+  `export HADOOP SRC DIR=/home/hybridlazy/hadoop-3.0.0-src`
 
   `export HADOOP HOME=$HADOOP SRC DIR/hadoop-dist/target/hadoop-3.0.0`
 
@@ -129,7 +129,61 @@
 
 ## HDFS-3 Configuration
 
+Example Architecture:
 
+| IP          | HDFS3    | Hybridlazy             |
+| ----------- | -------- | ---------------------- |
+| 192.168.0.1 | NameNode | Controller/Coordinator |
+| 192.168.0.2 | DataNode | Agent                  |
+| 192.168.0.3 | DataNode | Agent                  |
+| 192.168.0.4 | DataNode | Agent                  |
+| 192.168.0.5 | DataNode | Agent                  |
+
+We provide sample configuration files under hybridlazy/hdfsraid-integration/conf for
+HDFS-3. Here, we show some of the fields related to the integration of hybridlazy. You may leave
+other fields to be the same as our sample configurations. You can copy our sample configuration
+files to HADOOP_HOME/etc/hadoop and configure your HDFS-3 there. Please distribute the
+configuration files to all the nodes in the testbed
+
+- hadoop-env.sh
+
+| Field            | Default                                      | Description                                                  |
+| ---------------- | -------------------------------------------- | ------------------------------------------------------------ |
+| JAVA_HOME        | -                                            | Path to java installation.<br />e.g. /usr/lib/jvm/java1.8.o_333 |
+| HADOOP_CLASSPATH | \$HADOOP\_HOME/oeclib/\*:\$JAVA\_HOME/lib/\* | Path to Hybridlazy and java libraries.                       |
+
+- core-site.xml
+
+| Field          | Default                                                      | Description                                     |
+| -------------- | ------------------------------------------------------------ | ----------------------------------------------- |
+| fs.defaultFS   | hdfs://192.168.0.1:9000                                      | NameNode configuration.                         |
+| hadoop.tmp.dir | /home/hybridlazy/hadoop-3.0.0-src/hadoop-dist/<br/>target/hadoop-3.0.0 | Base directory for hdfs3 temporary directories. |
+
+- hdfs-site.xml
+
+| Field                          | Default                                                      | Description                                                  |
+| ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| dfs.replication                | 1                                                            | Replication factor of HDFS.                                  |
+| dfs.blocksize                  | 1048576                                                      | The size of a block in bytes.                                |
+| dfs.block.replicator.classname | org.apache.hadoop.hdfs.server.<br/>blockmanagement.<br/>BlockPlacementPolicyOEC | Hybridlazy placement integartion.                            |
+| link.oec                       | true                                                         | true: Run HDFS3 with Hybridlazy.<br/>false: Run HDFS3 without Hybridlazy. |
+| oec.controller.addr            | 192.168.0.1                                                  | IP address of OpenEC controller                              |
+| oec.local.addr                 | -                                                            | IP address of a node itself.                                 |
+| oec.pktsize                    | 131072                                                       | The size of a packet in OpenEC                               |
+
+- workers
+
+| 192.168.0.2 |
+| ----------- |
+| 192.168.0.3 |
+| 192.168.0.4 |
+| 192.168.0.5 |
+
+To start HDFS-3, we run the following commands in the NameNode.
+
+`hdfs namenode -format`
+
+`start-dfs.sh`
 
 ## Run
 
